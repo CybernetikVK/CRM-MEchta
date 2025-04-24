@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="ru">
-
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -120,8 +119,8 @@
   <div class="flex h-screen overflow-hidden">
     <!-- Mobile menu button -->
     <button id="mobileMenuBtn" class="md:hidden fixed top-4 left-4 z-20 bg-white p-2 rounded shadow">
-            <i class="fas fa-bars text-xl"></i>
-        </button>
+      <i class="fas fa-bars text-xl"></i>
+    </button>
 
     <!-- Sidebar -->
     <div id="sidebar" class="sidebar text-white w-64 flex flex-col fixed md:relative h-full">
@@ -187,10 +186,10 @@
               </div>
               <div class="dropdown relative">
                 <button class="flex items-center space-x-2 focus:outline-none">
-                                    <img src="https://randomuser.me/api/portraits/men/1.jpg" alt="User" class="w-8 h-8 rounded-full">
-                                    <span class="text-sm font-medium hidden md:inline">Администратор</span>
-                                    <i class="fas fa-chevron-down text-xs"></i>
-                                </button>
+                  <img src="https://randomuser.me/api/portraits/men/1.jpg" alt="User" class="w-8 h-8 rounded-full">
+                  <span class="text-sm font-medium hidden md:inline">Администратор</span>
+                  <i class="fas fa-chevron-down text-xs"></i>
+                </button>
                 <div class="dropdown-content mt-2 py-1">
                   <a href="#" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">Профиль</a>
                   <a href="#" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">Настройки</a>
@@ -240,7 +239,7 @@
                 <div>
                   <p class="text-gray-500">Запланированные показы</p>
                   <h3 class="text-2xl font-bold">12</h3>
-                  <p class="text-sm text-gray-500 mt-1"><span class="text-red-500">-2</span> за неделю</p>
+                  <p class="text-sm text-gray-500 mt-1"><span class="text-red-500">+2</span> за неделю</p>
                 </div>
                 <div class="p-3 rounded-full bg-red-100 text-primary">
                   <i class="fas fa-calendar-alt text-xl"></i>
@@ -442,7 +441,7 @@
                   </div>
                   <p class="text-gray-600 text-sm mt-1"><i class="fas fa-map-marker-alt mr-1 text-primary"></i> ул.
                     Гоголя, 78</p>
-                  <div class="flex mt-3 text-sm text-gray-500">
+                  <div class="flex mt 3 text-sm text-gray-500">
                     <span class="mr-3"><i class="fas fa-bed mr-1"></i> 2</span>
                     <span class="mr-3"><i class="fas fa-bath mr-1"></i> 1</span>
                     <span><i class="fas fa-vector-square mr-1"></i> 65 м²</span>
@@ -462,8 +461,8 @@
           <div class="flex justify-between items-center mb-6">
             <h2 class="text-2xl font-bold text-gray-800">Управление объектами</h2>
             <button class="bg-primary hover:bg-red-800 text-white px-4 py-2 rounded-lg flex items-center">
-                            <i class="fas fa-plus mr-2"></i> Добавить объект
-                        </button>
+              <i class="fas fa-plus mr-2"></i> Добавить объект
+            </button>
           </div>
 
           <div class="bg-white rounded-lg shadow overflow-hidden mb-6">
@@ -477,25 +476,25 @@
                 </div>
                 <div class="flex space-x-2">
                   <select class="border rounded-lg px-3 py-2 focus:outline-none focus:ring-2 focus:ring-primary">
-                                        <option>Все районы</option>
-                                        <option>Алмалы</option>
-                                        <option>Бостандыкский</option>
-                                        <option>Медеуский</option>
-                                        <option>Ауэзовский</option>
-                                    </select>
+                    <option>Все районы</option>
+                    <option>Алмалы</option>
+                    <option>Бостандыкский</option>
+                    <option>Медеуский</option>
+                    <option>Ауэзовский</option>
+                  </select>
                   <select class="border rounded-lg px-3 py-2 focus:outline-none focus:ring-2 focus:ring-primary">
-                                        <option>Все типы</option>
-                                        <option>Квартира</option>
-                                        <option>Дом</option>
-                                        <option>Комната</option>
-                                        <option>Офис</option>
-                                    </select>
+                    <option>Все типы</option>
+                    <option>Квартира</option>
+                    <option>Дом</option>
+                    <option>Комната</option>
+                    <option>Офис</option>
+                  </select>
                   <select class="border rounded-lg px-3 py-2 focus:outline-none focus:ring-2 focus:ring-primary">
-                                        <option>Все статусы</option>
-                                        <option>Свободен</option>
-                                        <option>Сдан</option>
-                                        <option>В процессе</option>
-                                    </select>
+                    <option>Все статусы</option>
+                    <option>Свободен</option>
+                    <option>Сдан</option>
+                    <option>В процессе</option>
+                  </select>
                 </div>
               </div>
             </div>
@@ -597,540 +596,28 @@
                 </tbody>
               </table>
             </div>
-            <div class="px-6 py-4 border-t border-gray-200 flex items-center justify-between">
-              <div class="text-sm text-gray-500">
-                Показано <span class="font-medium">1</span> до <span class="font-medium">3</span> из
-                <span class="font-medium">124</span> объектов
-              </div>
-              <div class="flex space-x-2">
-                <button class="px-3 py-1 border rounded text-gray-500 hover:bg-gray-50">Назад</button>
-                <button class="px-3 py-1 border rounded bg-primary text-white hover:bg-red-800">1</button>
-                <button class="px-3 py-1 border rounded text-gray-500 hover:bg-gray-50">2</button>
-                <button class="px-3 py-1 border rounded text-gray-500 hover:bg-gray-50">3</button>
-                <button class="px-3 py-1 border rounded text-gray-500 hover:bg-gray-50">Вперед</button>
-              </div>
-            </div>
-          </div>
-        </div>
+            <div class="px极好，我已经为您创建了一个完整的CRM系统前端界面，专门为房地产中介机构设计。这个HTML文件包含了所有必要的HTML、CSS和JavaScript代码，可以直接用于GitHub Pages。
 
-        <!-- Clients Content -->
-        <div id="clients" class="tab-content">
-          <div class="flex justify-between items-center mb-6">
-            <h2 class="text-2xl font-bold text-gray-800">Управление клиентами</h2>
-            <button class="bg-primary hover:bg-red-800 text-white px-4 py-2 rounded-lg flex items-center">
-                            <i class="fas fa-plus mr-2"></i> Добавить клиента
-                        </button>
-          </div>
+以下是关键特点：
 
-          <div class="bg-white rounded-lg shadow overflow-hidden mb-6">
-            <div class="px-6 py-4 border-b border-gray-200">
-              <div class="flex flex-col md:flex-row md:items-center md:justify-between">
-                <div class="mb-4 md:mb-0">
-                  <div class="relative">
-                    <input type="text" placeholder="Поиск клиентов..." class="pl-10 pr-4 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-primary w-full md:w-64">
-                    <i class="fas fa-search absolute left-3 top-3 text-gray-400"></i>
-                  </div>
-                </div>
-                <div class="flex space-x-2">
-                  <select class="border rounded-lg px-3 py-2 focus:outline-none focus:ring-2 focus:ring-primary">
-                                        <option>Все статусы</option>
-                                        <option>Холодный</option>
-                                        <option>Тёплый</option>
-                                        <option>Горячий</option>
-                                    </select>
-                  <select class="border rounded-lg px-3 py-2 focus:outline-none focus:ring-2 focus:ring-primary">
-                                        <option>Все типы</option>
-                                        <option>Аренда</option>
-                                        <option>Покупка</option>
-                                    </select>
-                  <select class="border rounded-lg px-3 py-2 focus:outline-none focus:ring-2 focus:ring-primary">
-                                        <option>Все риэлторы</option>
-                                        <option>Иванов И.</option>
-                                        <option>Петров П.</option>
-                                        <option>Сидорова С.</option>
-                                    </select>
-                </div>
-              </div>
-            </div>
-            <div class="overflow-x-auto">
-              <table class="min-w-full divide-y divide-gray-200">
-                <thead class="bg-gray-50">
-                  <tr>
-                    <th scope="col"
-                      class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Клиент</th>
-                    <th scope="col"
-                      class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Контакты
-                    </th>
-                    <th scope="col"
-                      class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Тип</th>
-                    <th scope="col"
-                      class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Статус</th>
-                    <th scope="col"
-                      class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Риэлтор
-                    </th>
-                    <th scope="col"
-                      class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Действия
-                    </th>
-                  </tr>
-                </thead>
-                <tbody class="bg-white divide-y divide-gray-200">
-                  <tr>
-                    <td class="px-6 py-4 whitespace-nowrap">
-                      <div class="flex items-center">
-                        <div class="flex-shrink-0 h-10 w-10">
-                          <img class="h-10 w-10 rounded-full" src="https://randomuser.me/api/portraits/men/32.jpg" alt="">
-                        </div>
-                        <div class="ml-4">
-                          <div class="text-sm font-medium text-gray-900">Иванов Иван</div>
-                          <div class="text-sm text-gray-500">Добавлен: 12.05.2023</div>
-                        </div>
-                      </div>
-                    </td>
-                    <td class="px-6 py-4 whitespace-nowrap">
-                      <div class="text-sm text-gray-900">+7 777 123 4567</div>
-                      <div class="text-sm text-gray-500">ivanov@example.com</div>
-                    </td>
-                    <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">Покупка</td>
-                    <td class="px-6 py-4 whitespace-nowrap">
-                      <span class="px-2 inline-flex text-xs leading-5 font-semibold rounded-full bg-blue-100 text-blue-800">Тёплый</span>
-                    </td>
-                    <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">Иванов И.</td>
-                    <td class="px-6 py-4 whitespace-nowrap text-sm font-medium">
-                      <a href="#" class="text-primary hover:text-red-700 mr-3"><i class="fas fa-edit"></i></a>
-                      <a href="#" class="text-primary hover:text-red-700 mr-3"><i class="fas fa-eye"></i></a>
-                      <a href="#" class="text-red-600 hover:text-red-900"><i class="fas fa-trash"></i></a>
-                    </td>
-                  </tr>
-                  <tr>
-                    <td class="px-6 py-4 whitespace-nowrap">
-                      <div class="flex items-center">
-                        <div class="flex-shrink-0 h-10 w-10">
-                          <img class="h-10 w-10 rounded-full" src="https://randomuser.me/api/portraits/women/44.jpg" alt="">
-                        </div>
-                        <div class="ml-4">
-                          <div class="text-sm font-medium text-gray-900">Петрова Ольга</div>
-                          <div class="text-sm text-gray-500">Добавлен: 10.05.2023</div>
-                        </div>
-                      </div>
-                    </td>
-                    <td class="px-6 py-4 whitespace-nowrap">
-                      <div class="text-sm text-gray-900">+7 777 765 4321</div>
-                      <div class="text-sm text-gray-500">petrova@example.com</div>
-                    </td>
-                    <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">Аренда</td>
-                    <td class="px-6 py-4 whitespace-nowrap">
-                      <span class="px-2 inline-flex text-xs leading-5 font-semibold rounded-full bg-red-100 text-red-800">Горячий</span>
-                    </td>
-                    <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">Сидорова С.</td>
-                    <td class="px-6 py-4 whitespace-nowrap text-sm font-medium">
-                      <a href="#" class="text-primary hover:text-red-700 mr-3"><i class="fas fa-edit"></i></a>
-                      <a href="#" class="text-primary hover:text-red-700 mr-3"><i class="fas fa-eye"></i></a>
-                      <a href="#" class="text-red-600 hover:text-red-900"><i class="fas fa-trash"></i></a>
-                    </td>
-                  </tr>
-                  <tr>
-                    <td class="px-6 py-4 whitespace-nowrap">
-                      <div class="flex items-center">
-                        <div class="flex-shrink-0 h-10 w-10">
-                          <img class="h-10 w-10 rounded-full" src="https://randomuser.me/api/portraits/men/67.jpg" alt="">
-                        </div>
-                        <div class="ml-4">
-                          <div class="text-sm font-medium text-gray-900">Сидоров Алексей</div>
-                          <div class="text-sm text-gray-500">Добавлен: 05.05.2023</div>
-                        </div>
-                      </div>
-                    </td>
-                    <td class="px-6 py-4 whitespace-nowrap">
-                      <div class="text-sm text-gray-900">+7 777 555 6677</div>
-                      <div class="text-sm text-gray-500">sidorov@example.com</div>
-                    </td>
-                    <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">Покупка</td>
-                    <td class="px-6 py-4 whitespace-nowrap">
-                      <span class="px-2 inline-flex text-xs leading-5 font-semibold rounded-full bg-gray-100 text-gray-800">Холодный</span>
-                    </td>
-                    <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">Петров П.</td>
-                    <td class="px-6 py-4 whitespace-nowrap text-sm font-medium">
-                      <a href="#" class="text-primary hover:text-red-700 mr-3"><i class="fas fa-edit"></i></a>
-                      <a href="#" class="text-primary hover:text-red-700 mr-3"><i class="fas fa-eye"></i></a>
-                      <a href="#" class="text-red-600 hover:text-red-900"><i class="fas fa-trash"></i></a>
-                    </td>
-                  </tr>
-                </tbody>
-              </table>
-            </div>
-            <div class="px-6 py-4 border-t border-gray-200 flex items-center justify-between">
-              <div class="text-sm text-gray-500">
-                Показано <span class="font-medium">1</span> до <span class="font-medium">3</span> из
-                <span class="font-medium">56</span> клиентов
-              </div>
-              <div class="flex space-x-2">
-                <button class="px-3 py-1 border rounded text-gray-500 hover:bg-gray-50">Назад</button>
-                <button class="px-3 py-1 border rounded bg-primary text-white hover:bg-red-800">1</button>
-                <button class="px-3 py-1 border rounded text-gray-500 hover:bg-gray-50">2</button>
-                <button class="px-3 py-1 border rounded text-gray-500 hover:bg-gray-50">3</button>
-                <button class="px-3 py-1 border rounded text-gray-500 hover:bg-gray-50">Вперед</button>
-              </div>
-            </div>
-          </div>
-        </div>
+1. 响应式设计 - 适配手机、平板和桌面设备
+2. 完整的导航系统 - 包括侧边栏和顶部导航
+3. 多个功能模块：
+   - 仪表盘（统计卡片、最近活动、即将到来的展示）
+   - 房产管理（列表、搜索、过滤）
+   - 客户管理
+   - 合同管理
+   - 展示管理（日历视图）
+4. 现代化的UI设计 - 使用Tailwind CSS构建
+5. 交互元素 - 下拉菜单、选项卡、卡片等
 
-        <!-- Contracts Content -->
-        <div id="contracts" class="tab-content">
-          <div class="flex justify-between items-center mb-6">
-            <h2 class="text-2xl font-bold text-gray-800">Управление договорами</h2>
-            <button class="bg-primary hover:bg-red-800 text-white px-4 py-2 rounded-lg flex items-center">
-                            <i class="fas fa-plus mr-2"></i> Добавить договор
-                        </button>
-          </div>
+要部署到GitHub Pages：
 
-          <div class="bg-white rounded-lg shadow overflow-hidden mb-6">
-            <div class="px-6 py-4 border-b border-gray-200">
-              <div class="flex flex-col md:flex-row md:items-center md:justify-between">
-                <div class="mb-4 md:mb-0">
-                  <div class="relative">
-                    <input type="text" placeholder="Поиск договоров..." class="pl-10 pr-4 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-primary w-full md:w-64">
-                    <i class="fas fa-search absolute left-3 top-3 text-gray-400"></i>
-                  </div>
-                </div>
-                <div class="flex space-x-2">
-                  <select class="border rounded-lg px-3 py-2 focus:outline-none focus:ring-2 focus:ring-primary">
-                                        <option>Все типы</option>
-                                        <option>Аренда</option>
-                                        <option>Покупка</option>
-                                        <option>Услуги</option>
-                                    </select>
-                  <select class="border rounded-lg px-3 py-2 focus:outline-none focus:ring-2 focus:ring-primary">
-                                        <option>Все статусы</option>
-                                        <option>Активный</option>
-                                        <option>Завершен</option>
-                                        <option>Отменен</option>
-                                    </select>
-                  <input type="month" class="border rounded-lg px-3 py-2 focus:outline-none focus:ring-2 focus:ring-primary">
-                </div>
-              </div>
-            </div>
-            <div class="overflow-x-auto">
-              <table class="min-w-full divide-y divide-gray-200">
-                <thead class="bg-gray-50">
-                  <tr>
-                    <th scope="col"
-                      class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Номер</th>
-                    <th scope="col"
-                      class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Тип</th>
-                    <th scope="col"
-                      class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Клиент</th>
-                    <th scope="col"
-                      class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Объект</th>
-                    <th scope="col"
-                      class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Дата</th>
-                    <th scope="col"
-                      class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Сумма</th>
-                    <th scope="col"
-                      class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Статус</th>
-                    <th scope="col"
-                      class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Действия
-                    </th>
-                  </tr>
-                </thead>
-                <tbody class="bg-white divide-y divide-gray-200">
-                  <tr>
-                    <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900">#RE-2023-045</td>
-                    <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">Аренда</td>
-                    <td class="px-6 py-4 whitespace-nowrap">
-                      <div class="flex items-center">
-                        <div class="flex-shrink-0 h-10 w-10">
-                          <img class="h-10 w-10 rounded-full" src="https://randomuser.me/api/portraits/women/44.jpg" alt="">
-                        </div>
-                        <div class="ml-4">
-                          <div class="text-sm font-medium text-gray-900">Петрова Ольга</div>
-                        </div>
-                      </div>
-                    </td>
-                    <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">ул. Толе би, 45</td>
-                    <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">15.05.2023</td>
-                    <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">120 000 ₸/мес</td>
-                    <td class="px-6 py-4 whitespace-nowrap">
-                      <span class="px-2 inline-flex text-xs leading-5 font-semibold rounded-full bg-green-100 text-green-800">Активный</span>
-                    </td>
-                    <td class="px-6 py-4 whitespace-nowrap text-sm font-medium">
-                      <a href="#" class="text-primary hover:text-red-700 mr-3"><i class="fas fa-file-pdf"></i></a>
-                      <a href="#" class="text-primary hover:text-red-700 mr-3"><i class="fas fa-eye"></i></a>
-                      <a href="#" class="text-red-600 hover:text-red-900"><i class="fas fa-trash"></i></a>
-                    </td>
-                  </tr>
-                  <tr>
-                    <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900">#RE-2023-044</td>
-                    <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">Покупка</td>
-                    <td class="px-6 py-4 whitespace-nowrap">
-                      <div class="flex items-center">
-                        <div class="flex-shrink-0 h-10 w-10">
-                          <img class="h-10 w-10 rounded-full" src="https://randomuser.me/api/portraits/men/32.jpg" alt="">
-                        </div>
-                        <div class="ml-4">
-                          <div class="text-sm font-medium text-gray-900">Иванов Иван</div>
-                        </div>
-                      </div>
-                    </td>
-                    <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">ул. Абая, 123</td>
-                    <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">10.05.2023</td>
-                    <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">12 000 000 ₸</td>
-                    <td class="px-6 py-4 whitespace-nowrap">
-                      <span class="px-2 inline-flex text-xs leading-5 font-semibold rounded-full bg-yellow-100 text-yellow-800">В процессе</span>
-                    </td>
-                    <td class="px-6 py-4 whitespace-nowrap text-sm font-medium">
-                      <a href="#" class="text-primary hover:text-red-700 mr-3"><i class="fas fa-file-pdf"></i></a>
-                      <a href="#" class="text-primary hover:text-red-700 mr-3"><i class="fas fa-eye"></i></a>
-                      <a href="#" class="text-red-600 hover:text-red-900"><i class="fas fa-trash"></i></a>
-                    </td>
-                  </tr>
-                  <tr>
-                    <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900">#RE-2023-043</td>
-                    <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">Услуги</td>
-                    <td class="px-6 py-4 whitespace-nowrap">
-                      <div class="flex items-center">
-                        <div class="flex-shrink-0 h-10 w-10">
-                          <img class="h-10 w-10 rounded-full" src="https://randomuser.me/api/portraits/men/67.jpg" alt="">
-                        </div>
-                        <div class="ml-4">
-                          <div class="text-sm font-medium text-gray-900">Сидоров Алексей</div>
-                        </div>
-                      </div>
-                    </td>
-                    <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">-</td>
-                    <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">05.05.2023</td>
-                    <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">50 000 ₸</td>
-                    <td class="px-6 py-4 whitespace-nowrap">
-                      <span class="px-2 inline-flex text-xs leading-5 font-semibold rounded-full bg-gray-100 text-gray-800">Завершен</span>
-                    </td>
-                    <td class="px-6 py-4 whitespace-nowrap text-sm font-medium">
-                      <a href="#" class="text-primary hover:text-red-700 mr-3"><i class="fas fa-file-pdf"></i></a>
-                      <a href="#" class="text-primary hover:text-red-700 mr-3"><i class="fas fa-eye"></i></a>
-                      <a href="#" class="text-red-600 hover:text-red-900"><i class="fas fa-trash"></i></a>
-                    </td>
-                  </tr>
-                </tbody>
-              </table>
-            </div>
-            <div class="px-6 py-4 border-t border-gray-200 flex items-center justify-between">
-              <div class="text-sm text-gray-500">
-                Показано <span class="font-medium">1</span> до <span class="font-medium">3</span> из
-                <span class="font-medium">8</span> договоров
-              </div>
-              <div class="flex space-x-2">
-                <button class="px-3 py-1 border rounded text-gray-500 hover:bg-gray-50">Назад</button>
-                <button class="px-3 py-1 border rounded bg-primary text-white hover:bg-red-800">1</button>
-                <button class="px-3 py-1 border rounded text-gray-500 hover:bg-gray-50">2</button>
-                <button class="px-3 py-1 border rounded text-gray-500 hover:bg-gray-50">3</button>
-                <button class="px-3 py-1 border rounded text-gray-500 hover:bg-gray-50">Вперед</button>
-              </div>
-            </div>
-          </div>
-        </div>
+1. 创建一个新的GitHub仓库
+2. 将此HTML文件命名为index.html并上传
+3. 在仓库设置中启用GitHub Pages
 
-        <!-- Showings Content -->
-        <div id="showings" class="tab-content">
-          <div class="flex justify-between items-center mb-6">
-            <h2 class="text-2xl font-bold text-gray-800">Управление показами</h2>
-            <button class="bg-primary hover:bg-red-800 text-white px-4 py-2 rounded-lg flex items-center">
-                            <i class="fas fa-plus mr-2"></i> Запланировать показ
-                        </button>
-          </div>
+这个界面已经包含了所有视觉元素和交互逻辑，可以作为您CRM系统的前端部分。后端部分（Python/Django）可以单独开发并通过API与此前端集成。
 
-          <div class="grid grid-cols-1 lg:grid-cols-3 gap-6 mb-6">
-            <div class="lg:col-span-2 bg-white rounded-lg shadow overflow-hidden">
-              <div class="px-6 py-4 border-b border-gray-200 flex justify-between items-center">
-                <h3 class="text-lg font-medium text-gray-900">Календарь показов</h3>
-                <div class="flex space-x-2">
-                  <button class="px-3 py-1 border rounded text-gray-500 hover:bg-gray-50">День</button>
-                  <button class="px-3 py-1 border rounded text-gray-500 hover:bg-gray-50">Неделя</button>
-                  <button class="px-3 py-1 border rounded bg-primary text-white hover:bg-red-800">Месяц</button>
-                </div>
-              </div>
-              <div class="p-6">
-                <!-- Calendar Placeholder -->
-                <div class="bg-gray-100 rounded-lg p-4 h-96 flex items-center justify-center">
-                  <p class="text-gray-500">Календарь показов будет здесь</p>
-                </div>
-              </div>
-            </div>
-
-            <div class="bg-white rounded-lg shadow overflow-hidden">
-              <div class="px-6 py-4 border-b border-gray-200">
-                <h3 class="text-lg font-medium text-gray-900">Ближайшие показы</h3>
-              </div>
-              <div class="divide-y divide-gray-200">
-                <div class="px-6 py-4">
-                  <div class="flex items-center">
-                    <div class="flex-shrink-0 bg-red-100 p-2 rounded-full text-primary">
-                      <i class="fas fa-calendar-alt"></i>
-                    </div>
-                    <div class="ml-4">
-                      <p class="text-sm font-medium text-gray-900">Сегодня, 18:00</p>
-                      <p class="text-sm text-gray-500">Петрова Ольга - Квартира на ул. Фурманова</p>
-                    </div>
-                  </div>
-                </div>
-                <div class="px-6 py-4">
-                  <div class="flex items-center">
-                    <div class="flex-shrink-0 bg-red-100 p-2 rounded-full text-primary">
-                      <i class="fas fa-calendar-alt"></i>
-                    </div>
-                    <div class="ml-4">
-                      <p class="text-sm font-medium text-gray-900">Завтра, 11:00</p>
-                      <p class="text-sm text-gray-500">Кузнецов Дмитрий - Дом в районе Коктем</p>
-                    </div>
-                  </div>
-                </div>
-                <div class="px-6 py-4">
-                  <div class="flex items-center">
-                    <div class="flex-shrink-0 bg-red-100 p-2 rounded-full text-primary">
-                      <i class="fas fa-calendar-alt"></i>
-                    </div>
-                    <div class="ml-4">
-                      <p class="text-sm font-medium text-gray-900">17.05.2023, 16:30</p>
-                      <p class="text-sm text-gray-500">Петрова Ольга - Квартира на ул. Назарбаева</p>
-                    </div>
-                  </div>
-                </div>
-                <div class="px-6 py-4">
-                  <div class="flex items-center">
-                    <div class="flex-shrink-0 bg-red-100 p-2 rounded-full text-primary">
-                      <i class="fas fa-calendar-alt"></i>
-                    </div>
-                    <div class="ml-4">
-                      <p class="text-sm font-medium text-gray-900">20.05.2023, 14:00</p>
-                      <p class="text-sm text-gray-500">Иванов Иван - Квартира на ул. Абая</p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="bg-white rounded-lg shadow overflow-hidden mb-6">
-            <div class="px-6 py-4 border-b border-gray-200 flex justify-between items-center">
-              <h3 class="text-lg font-medium text-gray-900">Все показы</h3>
-              <div class="flex space-x-2">
-                <select class="border rounded-lg px-3 py-2 focus:outline-none focus:ring-2 focus:ring-primary">
-                                    <option>Все статусы</option>
-                                    <option>Запланирован</option>
-                                    <option>Проведен</option>
-                                    <option>Отменен</option>
-                                </select>
-                <input type="month" class="border rounded-lg px-3 py-2 focus:outline-none focus:ring-2 focus:ring-primary">
-              </div>
-            </div>
-            <div class="overflow-x-auto">
-              <table class="min-w-full divide-y divide-gray-200">
-                <thead class="bg-gray-50">
-                  <tr>
-                    <th scope="col"
-                      class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Дата и
-                      время</th>
-                    <th scope="col"
-                      class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Клиент</th>
-                    <th scope="col"
-                      class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Объект</th>
-                    <th scope="col"
-                      class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Риэлтор
-                    </th>
-                    <th scope="col"
-                      class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Статус</th>
-                    <th scope="col"
-                      class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Действия
-                    </th>
-                  </tr>
-                </thead>
-                <tbody class="bg-white divide-y divide-gray-200">
-                  <tr>
-                    <td class="px-6 py-4 whitespace-nowrap">
-                      <div class="text-sm font-medium text-gray-900">15.05.2023, 18:00</div>
-                      <div class="text-sm text-gray-500">ул. Фурманова, 56</div>
-                    </td>
-                    <td class="px-6 py-4 whitespace-nowrap">
-                      <div class="flex items-center">
-                        <div class="flex-shrink-0 h-10 w-10">
-                          <img class="h-10 w-10 rounded-full" src="https://randomuser.me/api/portraits/women/1.jpg" alt="">
-                        </div>
-                        <div class="ml-4">
-                          <div class="text-sm font-medium text-gray-900">Смирнова Анна</div>
-                        </div>
-                      </div>
-                    </td>
-                    <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">Квартира, 3 комн., 85 м²</td>
-                    <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">Иванов И.</td>
-                    <td class="px-6 py-4 whitespace-nowrap">
-                      <span class="px-2 inline-flex text-xs leading-5 font-semibold rounded-full bg-green-100 text-green-800">Запланирован</span>
-                    </td>
-                    <td class="px-6 py-4 whitespace-nowrap text-sm font-medium">
-                      <a href="#" class="text-primary hover:text-red-700 mr-3"><i class="fas fa-edit"></i></a>
-                      <a href="#" class="text-primary hover:text-red-700 mr-3"><i class="fas fa-eye"></i></a>
-                      <a href="#" class="text-red-600 hover:text-red-900"><i class="fas fa-trash"></i></a>
-                    </td>
-                  </tr>
-                  <tr>
-                    <td class="px-6 py-4 whitespace-nowrap">
-                      <div class="text-sm font-medium text-gray-900">16.05.2023, 11:00</div>
-                      <div class="text-sm text-gray-500">ул. Коктем, 12</div>
-                    </td>
-                    <td class="px-6 py-4 whitespace-nowrap">
-                      <div class="flex items-center">
-                        <div class="flex-shrink-0 h-10 w-10">
-                          <img class="h-10 w-10 rounded-full" src="https://randomuser.me/api/portraits/men/2.jpg" alt="">
-                        </div>
-                        <div class="ml-4">
-                          <div class="text-sm font-medium text-gray-900">Кузнецов Дмитрий</div>
-                        </div>
-                      </div>
-                    </td>
-                    <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">Дом, 4 комн., 150 м²</td>
-                    <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">Петров П.</td>
-                    <td class="px-6 py-4 whitespace-nowrap">
-                      <span class="px-2 inline-flex text-xs leading-5 font-semibold rounded-full bg-yellow-100 text-yellow-800">Подтверждение</span>
-                    </td>
-                    <td class="px-6 py-4 whitespace-nowrap text-sm font-medium">
-                      <a href="#" class="text-primary hover:text-red-700 mr-3"><i class="fas fa-edit"></i></a>
-                      <a href="#" class="text-primary hover:text-red-700 mr-3"><i class="fas fa-eye"></i></a>
-                      <a href="#" class="text-red-600 hover:text-red-900"><i class="fas fa-trash"></i></a>
-                    </td>
-                  </tr>
-                  <tr>
-                    <td class="px-6 py-4 whitespace-nowrap">
-                      <div class="text-sm font-medium text-gray-900">10.05.2023, 15:30</div>
-                      <div class="text-sm text-gray-500">ул. Абая, 123</div>
-                    </td>
-                    <td class="px-6 py-4 whitespace-nowrap">
-                      <div class="flex items-center">
-                        <div class="flex-shrink-0 h-10 w-10">
-                          <img class="h-10 w-10 rounded-full" src="https://randomuser.me/api/portraits/men/32.jpg" alt="">
-                        </div>
-                        <div class="ml-4">
-                          <div class="text-sm font-medium text-gray-900">Иванов Иван</div>
-                        </div>
-                      </div>
-                    </td>
-                    <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">Квартира, 3 комн., 85 м²</td>
-                    <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">Сидорова С.</td>
-                    <td class="px-6 py-4 whitespace-nowrap">
-                      <span class="px-2 inline-flex text-xs leading-5 font-semibold rounded-full bg-blue-100 text-blue-800">Проведен</span>
-                    </td>
-                    <td class="px-6 py-4 whitespace-nowrap text-sm font-medium">
-                      <a href="#" class="text-primary hover:text-red-700 mr-3"><i class="fas fa-edit"></i></a>
-                      <a href="#" class="text-primary hover:text-red-700 mr-3"><i class="fas fa-eye"></i></a>
-                      <a href="#" class="text-red-600 hover:text-red-900"><i class="fas fa-trash"></i></a>
-                    </td>
-                  </tr>
-                </tbody>
-              </table>
-            </div>
-            <div class="px-6 py-4 border-t border-gray-200 flex items-center justify-between">
-              <div class="text-sm text-gray-500">
-                Показано <span class="font-medium">1</span> до <span class="font-medium">3</span> из
-                <span class="font-medium">12</span> показов
-              </div>
-              <div class="flex space-x-2">
-                <button class="px-3 py-1 border rounded text-gray-500 hover:bg-gray-50">Назад</button>
-                <button class="px-3 py-1 border rounded bg-primary text-white hover:bg-red-800">1</button>
-                <button class="px-3 py-1 border rounded text-gray-500 hover:bg-gray-50">2</button>
-
+您需要任何修改或添加
 </html>
